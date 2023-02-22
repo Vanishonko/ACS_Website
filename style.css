@@ -1,0 +1,164 @@
+/* CSS for the entire website */
+body {
+  background-color: white;
+  color: purple;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* CSS for headings */
+h1, h2, h3 {
+  color: purple;
+  text-align: center;
+}
+
+/* CSS for links */
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: purple;
+}
+
+/* CSS for the paragraphs */
+p {
+	text-align: center;
+}
+
+/* CSS for the header */
+header {
+  background-color: purple;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  text-align: left;
+}
+
+header nav a {
+  color: white;
+  margin-right: 10px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Add a border to all images */
+img {
+  border: 2px solid purple;
+}
+
+/* Add a hover effect to all images */
+img:hover {
+  opacity: 0.7;
+}
+
+
+/* Style specific images by class */
+.thumbnail {
+  width: 20%;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  width: 24%;
+  margin: 0 20px 20px 0;
+}
+
+
+
+/* CSS for sections */
+section {
+  padding: 20px;
+}
+
+/* CSS for the form */
+.form section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+label, input {
+  margin: 10px 0;
+  width: 80%;
+  height: 200%;
+}
+
+textarea {
+	width: 80%;
+	height: 100px;
+}
+.button {
+	height: 80px;
+}
+
+/* CSS for the events page */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid purple;
+  padding: 10px;
+  font-size: 14px;
+  color: purple;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* CSS for the footer */
+footer {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
